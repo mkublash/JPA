@@ -7,8 +7,6 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.Query;
 
-import de.vogella.jpa.simple.model.Todo;
-
 public class Main {
     private static final String PERSISTENCE_UNIT_NAME = "todos";
     private static EntityManagerFactory factory;
